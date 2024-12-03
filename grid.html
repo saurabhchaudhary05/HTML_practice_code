@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  .stack{
+    display:grid;
+    background-color: aqua;
+    border:5px solid red;
+   
+    row-gap: 100px;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto;
+
+  }
+  .item{
+    background-color: blueviolet;
+    border:10px solid yellow;
+    padding:10px;
+    margin:5px;
+    font-size: 31px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .item:first-child{
+    border:2px dashed purple;
+    background-color:pink;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2 /span 3;
+    
+
+  }
+</style>
+  <title>hello</title>
+</head>
+<body>
+  <div class="stack">
+    <div class="item">Here is 1 <marquee style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: brown; ">good evening   
+    </marquee></div>
+    <div class="item">Here is 2</div>
+    <div class="item">Here is 3</div>
+    <div class="item">Here is 4</div>
+    <div class="item">Here is 5</div>
+    <div class="item">Here is 6</div>
+    <div class="item">Here is 7</div>
+    <div class="item">Here is 8</div>
+    <div class="item">Here is 9</div>
+    <div class="item">Here is 10</div>
+    <div class="item">Here is 11</div>
+    <div class="item">Here is 12</div>
+  </div>
+  
+</body>
+</html>

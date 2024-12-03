@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="rin"></p>
+    <script>
+        function pali(str){
+            const len=string.length;
+            for (let i=0;i<len/2;i++){
+                if (string[i]!==string[len-1-i]){
+                    document.getElementById("rin").innerHTML="it is not a palidonre";
+                }
+                else{
+                    document.getElementById("rin").innerText="it is palidrone"}
+                }
+
+            }
+        // document.getElementById("rin").innerText="it is palidrone"}
+        const string="abcdef"
+        const value=pali(string)
+        // console.log(value)
+        
+    </script>
+</body>
+</html>
